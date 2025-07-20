@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal Page</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <div id="wrapper">
+        <header>
+            <img src="/images/logo.jpg" alt="Daniel logo">
+
+            <h1>Bro Daniel's Portal Page</h1>
+        </header>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="wwr/index.html">WWR</a>
+            <a href="ice/index.html">ICE</a>
+            <a href="aboutme.html">About Me</a>
+        </nav>
+        <main>
+            <section>
+                <img src="/images/sharksote.jpg" alt="big shark">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Id ducimus molestias magni aspernatur veniam enim minus rerum temporibus distinctio possimus, voluptates delectus architecto, expedita consequatur. Cupiditate natus temporibus iste sunt?</p>
+            </section>
+            <section>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Velit quo officia ex doloremque temporibus eos quam fugiat placeat fugit. Quibusdam corporis quo nisi, saepe fugit modi illo at eius magnam?</p>
+                <img src="/images/sharksito.jpg" alt="small shark">
+            </section>
+            <section>
+                <img src="/images/sharkmito.avif" alt="fool shark">
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quidem, error suscipit consectetur at porro cupiditate rem inventore recusandae odit natus quis optio animi maxime? Aliquid quis quisquam saepe non perspiciatis!</p>
+            </section>
+            <!--Para usar la table tag, siempre se usa TH para el primer grupo y el resto serán con TD,  pero siempre la misma cantidad de child tags
+            Esto es para crear una tabla de datos-->
+            <table class="blueTable">
+                <tr>
+                    <th>Class name</th>
+                    <th>Time</th>
+                    <th>Room Number</th>
+                </tr>
+                <tr>
+                    <td>The Great</td>
+                    <td>F. Scott</td>
+                    <td>1960</td>
+                </tr>
+                <tr>
+                    <td>Harry Potter</td>
+                    <td>Daniel Cossman</td>
+                    <td>1814</td>
+                </tr>
+            </table>
+        </main>
+        <footer>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="wwr/index.html">WWR</a></li>
+                <li><a href="ice/index.html">ICE</a></li>
+                <li><a href="aboutme.htlm">About Me</a></li>
+            </ul>
+
+            
+            <!--A form es la unica manera de la que podemos obtener información del usuario-->
+            <form>
+                <!--The input tag son botones especiales que funcionarán con JS. Siempre usar el type attribute-->
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="4" required></textarea><br><br>
+
+                <input type="submit" value="Send">
+
+            </form>
+            <!--Para obtener algunos simbolos se puede usar & and the command with semicolon an the end-->
+            <p>&copy; Daniel 2025</p>
+        </footer>
+    </div>
+</body>
+</html>

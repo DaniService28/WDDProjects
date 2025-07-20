@@ -1,0 +1,70 @@
+/* Add your CSS here to style your father's day page */
+#wrapper{
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 0;
+    justify-content: space-between;
+    background-color: black;
+    }
+ul li{
+    padding: 10px 40px;
+    color: white;
+}
+
+ul li:hover{
+    padding: 10px 40px;
+    background-color: rgb(34, 32, 31);;
+}
+h1{
+    position: absolute;
+    left: 29%;
+    bottom: -450px;
+    font-size: 450%;
+    color: wheat;
+}
+
+img{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+section{
+    background-color: black;
+    margin-top: -25px;
+    padding: 0;
+    border: solid 1px white;
+}
+
+section:hover{
+    background-color: rgb(34, 32, 31);
+}
+
+section h2{
+    color: #AC3E0E;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+section p{
+    color: #EBA254;
+    margin-top: -10px;
+    padding: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+}
+
+footer{
+    text-align: center;
+    background-color: #714323;
+    margin-top: -20px;
+    padding: 10px;
+    color: wheat;
+}
