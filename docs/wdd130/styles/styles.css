@@ -421,7 +421,7 @@ label {
 .programs{
     display: grid;
     grid-template-columns: repeat(10, 10%);
-    background-image: url(../wdd130/images/back4.jpg);
+    background-image: url(../images/back4.jpg);
     background-size: cover;
     background-color: rgba(0, 0, 0, 0.01); 
     background-blend-mode: multiply;
@@ -626,7 +626,7 @@ label {
 
 /*Make a new background*/
 .playa-background{
-    background-image: url("/wdd130/images/backShort.jpg");
+    background-image: url(../images/backShort.jpg);
     background-size: cover;
     width: 100%;
     height: 338px;
