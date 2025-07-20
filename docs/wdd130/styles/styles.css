@@ -257,7 +257,7 @@ label {
 
 /*Know about us section*/
 .school{
-    background-image: url(../images/back32.jsg);
+    background-image: url(../images/back3.jpg);
     background-color: rgba(0, 0, 0, 0.12); 
     background-blend-mode: multiply;
     margin-top: -147px;
@@ -347,7 +347,7 @@ label {
     margin-top: -40px;
     padding-top: 40px;
     gap: 10px;
-    background-image: url(../images/back3.jpg);
+    background-image: url(../images/back32.jpg);
     background-position: 100;
     background-color: rgba(0, 0, 0, 0.12); 
     background-blend-mode: multiply;
