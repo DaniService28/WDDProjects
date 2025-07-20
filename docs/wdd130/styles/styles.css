@@ -347,7 +347,7 @@ label {
     margin-top: -40px;
     padding-top: 40px;
     gap: 10px;
-    background-image: url("/docs/wdd130/images/back32.jpg");
+    background-image: url(../images/back32.jpg);
     background-position: 100;
     background-color: rgba(0, 0, 0, 0.12); 
     background-blend-mode: multiply;
