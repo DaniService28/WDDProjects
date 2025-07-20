@@ -655,7 +655,7 @@ label {
 #qr-code{
     margin-left: 350px;
     margin-bottom: -70px;
-    z-index: 1;
+    z-index: 3;
     width: 118px;
     flex-direction: row;
     align-self: flex-end;
